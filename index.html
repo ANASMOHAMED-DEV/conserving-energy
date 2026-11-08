@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Watt Watchers — House Inspector Adventure</title>
+<style>
+  html, body {
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    background: #16323a; overflow: hidden;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  }
+  #game-container { width: 100%; height: 100%; }
+  #game-container canvas { display: block; }
+  #file-warning {
+    display: none; position: fixed; inset: 0; z-index: 50;
+    background: #16323a; color: #fdf6e3;
+    align-items: center; justify-content: center; text-align: center;
+    padding: 24px; box-sizing: border-box;
+  }
+  #file-warning .card {
+    max-width: 560px; background: #1f4450; border-radius: 20px;
+    padding: 32px; line-height: 1.6; font-size: 18px;
+  }
+  #file-warning h1 { color: #ffd166; font-size: 26px; margin-top: 0; }
+  #file-warning code {
+    background: #16323a; padding: 2px 8px; border-radius: 6px;
+    color: #8fd6c7; font-size: 16px;
+  }
+  noscript { color: #fdf6e3; display: block; padding: 40px; font-size: 20px; }
+</style>
+</head>
+<body>
+<div id="game-container"></div>
+<div id="file-warning">
+  <div class="card">
+    <h1>Almost there, Inspector!</h1>
+    <p>Watt Watchers needs a tiny local server to load its pictures.</p>
+    <p><strong>Windows:</strong> double-click <code>play.bat</code> in the game folder.<br>
+       <strong>Any system:</strong> run <code>python -m http.server 8080</code> in the folder,
+       then open <code>http://localhost:8080</code>.</p>
+  </div>
+</div>
+<noscript>Watt Watchers needs JavaScript to run. Please enable it in your browser.</noscript>
+
+<script>
+  // Friendly guard: Phaser asset loading fails under file:// in most browsers.
+  if (location.protocol === 'file:') {
+    document.getElementById('file-warning').style.display = 'flex';
+  }
+</script>
+
+<script src="vendor/phaser.min.js"></script>
+<script src="src/config.js"></script>
+<script src="src/state/Rng.js"></script>
+<script src="src/state/SaveManager.js"></script>
+<script src="src/state/GameState.js"></script>
+<script src="src/data/facts.js"></script>
+<script src="src/data/badges.js"></script>
+<script src="src/data/rooms.js"></script>
+<script src="src/systems/ScoreSystem.js"></script>
+<script src="src/systems/SfxManager.js"></script>
+<script src="src/ui/Buttons.js"></script>
+<script src="src/ui/Dialog.js"></script>
+<script src="src/ui/Meter.js"></script>
+<script src="src/objects/WasteObject.js"></script>
+<script src="src/scenes/BootScene.js"></script>
+<script src="src/scenes/PreloadScene.js"></script>
+<script src="src/scenes/MenuScene.js"></script>
+<script src="src/scenes/HouseMapScene.js"></script>
+<script src="src/scenes/HudScene.js"></script>
+<script src="src/scenes/RoomScene.js"></script>
+<script src="src/scenes/ReportScene.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>

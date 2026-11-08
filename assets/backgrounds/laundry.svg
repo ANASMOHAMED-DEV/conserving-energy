@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- Laundry: washer, dryer, freezer, radio, light drawn by the game -->
+  <rect width="1280" height="500" fill="#e2e0d4"/>
+  <rect y="500" width="1280" height="220" fill="#8a9aa0"/>
+  <g stroke="#7a8a90" stroke-width="3">
+    <line x1="0" y1="560" x2="1280" y2="560"/><line x1="0" y1="622" x2="1280" y2="622"/><line x1="0" y1="684" x2="1280" y2="684"/>
+    <line x1="220" y1="500" x2="220" y2="720"/><line x1="500" y1="500" x2="500" y2="720"/><line x1="780" y1="500" x2="780" y2="720"/><line x1="1060" y1="500" x2="1060" y2="720"/>
+  </g>
+  <rect y="488" width="1280" height="14" fill="#f7f0dd"/>
+  <!-- sunny window with clothesline (supports the dryer choice) -->
+  <rect x="752" y="122" width="166" height="186" rx="12" fill="#f7f0dd"/>
+  <rect x="766" y="136" width="138" height="158" rx="7" fill="#bfe3ea"/>
+  <circle cx="800" cy="170" r="20" fill="#ffd166"/>
+  <g stroke="#ffd166" stroke-width="4">
+    <line x1="800" y1="140" x2="800" y2="132"/><line x1="800" y1="200" x2="800" y2="208"/><line x1="770" y1="170" x2="762" y2="170"/><line x1="830" y1="170" x2="838" y2="170"/>
+  </g>
+  <path d="M770 218 Q835 230 900 214" stroke="#8a6f52" stroke-width="3" fill="none"/>
+  <path d="M796 222 L816 224 L814 252 L798 250 Z" fill="#e76f51"/>
+  <path d="M848 222 L868 219 L870 246 L850 248 Z" fill="#2a9d8f"/>
+  <rect x="829" y="136" width="7" height="158" fill="#f7f0dd"/>
+  <!-- counter slab over the machines -->
+  <rect x="248" y="338" width="466" height="18" rx="8" fill="#f7f0dd"/>
+  <path d="M270 356 L270 374 L286 356 Z" fill="#c9bd9c"/><path d="M690 356 L690 374 L674 356 Z" fill="#c9bd9c"/>
+  <!-- detergent bottles on the slab -->
+  <rect x="446" y="286" width="26" height="52" rx="8" fill="#2a9d8f"/>
+  <rect x="452" y="276" width="14" height="12" rx="4" fill="#1f7a70"/>
+  <rect x="480" y="296" width="24" height="42" rx="8" fill="#e76f51"/>
+  <rect x="486" y="286" width="12" height="12" rx="4" fill="#c5573c"/>
+  <!-- shelf left (radio appears on it) -->
+  <rect x="100" y="342" width="170" height="12" rx="6" fill="#b98a5e"/>
+  <path d="M114 354 L114 372 L128 354 Z" fill="#a67950"/><path d="M254 354 L254 372 L240 354 Z" fill="#a67950"/>
+  <!-- laundry basket -->
+  <ellipse cx="176" cy="624" rx="62" ry="10" fill="#000000" opacity="0.10"/>
+  <path d="M120 548 L232 548 L220 622 L132 622 Z" fill="#d9b98a"/>
+  <g stroke="#c4a476" stroke-width="3">
+    <line x1="126" y1="568" x2="226" y2="568"/><line x1="130" y1="590" x2="222" y2="590"/>
+    <line x1="150" y1="548" x2="154" y2="622"/><line x1="176" y1="548" x2="176" y2="622"/><line x1="202" y1="548" x2="198" y2="622"/>
+  </g>
+  <ellipse cx="156" cy="544" rx="18" ry="10" fill="#e76f51"/>
+  <ellipse cx="192" cy="542" rx="18" ry="10" fill="#2a9d8f"/>
+  <!-- ironing board right -->
+  <ellipse cx="1204" cy="592" rx="70" ry="10" fill="#000000" opacity="0.10"/>
+  <line x1="1160" y1="500" x2="1240" y2="588" stroke="#9aa5a8" stroke-width="7"/>
+  <line x1="1244" y1="500" x2="1164" y2="588" stroke="#9aa5a8" stroke-width="7"/>
+  <rect x="1130" y="478" width="150" height="22" rx="11" fill="#bfe3ea"/>
+  <rect x="1130" y="478" width="44" height="22" rx="11" fill="#9fd0dd"/>
+</svg>

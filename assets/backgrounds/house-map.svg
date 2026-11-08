@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- House cross-section: room cards are drawn on top by the game -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd6e7"/><stop offset="1" stop-color="#bfe3ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <circle cx="1150" cy="90" r="42" fill="#ffd166"/>
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="180" cy="70" rx="52" ry="18"/><ellipse cx="220" cy="58" rx="36" ry="14"/>
+    <ellipse cx="980" cy="52" rx="46" ry="15"/><ellipse cx="1020" cy="42" rx="30" ry="12"/>
+  </g>
+  <rect y="560" width="1280" height="160" fill="#7fb069"/>
+  <ellipse cx="120" cy="560" rx="220" ry="30" fill="#8fbf78"/>
+  <ellipse cx="1160" cy="566" rx="240" ry="34" fill="#8fbf78"/>
+  <!-- house body -->
+  <rect x="170" y="110" width="1010" height="470" rx="10" fill="#f2e8cf"/>
+  <rect x="170" y="110" width="1010" height="470" rx="10" fill="none" stroke="#d9c9a3" stroke-width="8"/>
+  <!-- roof -->
+  <path d="M140 118 L1210 118 L675 18 Z" fill="#c5573c"/>
+  <path d="M166 110 L1184 110 L675 26 Z" fill="#e76f51"/>
+  <rect x="980" y="30" width="46" height="72" fill="#8a5a44"/>
+  <rect x="974" y="24" width="58" height="14" rx="5" fill="#6b4632"/>
+  <!-- floor divider -->
+  <rect x="180" y="296" width="990" height="14" fill="#d9c9a3"/>
+  <!-- interior partitions -->
+  <rect x="478" y="118" width="14" height="178" fill="#d9c9a3"/>
+  <rect x="944" y="118" width="14" height="178" fill="#d9c9a3"/>
+  <rect x="478" y="310" width="14" height="262" fill="#d9c9a3"/>
+  <rect x="936" y="310" width="14" height="262" fill="#d9c9a3"/>
+  <!-- subtle room tints + furniture hints -->
+  <rect x="192" y="126" width="280" height="164" fill="#d8e2ec" opacity="0.55"/>
+  <rect x="230" y="234" width="130" height="40" rx="10" fill="#2a9d8f" opacity="0.5"/>
+  <rect x="240" y="216" width="50" height="22" rx="8" fill="#f7f0dd" opacity="0.8"/>
+  <rect x="500" y="126" width="436" height="164" fill="#cfe6ea" opacity="0.55"/>
+  <rect x="856" y="214" width="60" height="60" rx="8" fill="#f7f0dd" opacity="0.7"/>
+  <rect x="192" y="318" width="280" height="246" fill="#ece2c8" opacity="0.6"/>
+  <rect x="234" y="480" width="140" height="52" rx="14" fill="#e76f51" opacity="0.5"/>
+  <rect x="500" y="318" width="430" height="246" fill="#dfe8e6" opacity="0.6"/>
+  <rect x="852" y="470" width="66" height="66" rx="8" fill="#2a9d8f" opacity="0.4"/>
+  <rect x="956" y="318" width="214" height="246" fill="#e2e0d4" opacity="0.6"/>
+  <circle cx="1063" cy="508" r="30" fill="#8a9aa0" opacity="0.4"/>
+  <!-- attic window -->
+  <circle cx="675" cy="78" r="22" fill="#bfe3ea" stroke="#f7f0dd" stroke-width="6"/>
+  <!-- front path + bushes -->
+  <path d="M600 580 L750 580 L800 720 L550 720 Z" fill="#d9c9a3"/>
+  <ellipse cx="220" cy="586" rx="56" ry="26" fill="#5f9a52"/>
+  <ellipse cx="300" cy="592" rx="44" ry="22" fill="#6faa5f"/>
+  <ellipse cx="1120" cy="588" rx="56" ry="26" fill="#5f9a52"/>
+  <circle cx="208" cy="576" r="6" fill="#e76f51"/><circle cx="240" cy="584" r="6" fill="#ffd166"/><circle cx="1132" cy="578" r="6" fill="#ffd166"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- Kitchen: fridge, oven, dishwasher, kettle, lights drawn by the game -->
+  <rect width="1280" height="480" fill="#dfe8e6"/>
+  <rect y="480" width="1280" height="240" fill="#b8c2c8"/>
+  <g stroke="#a3adb3" stroke-width="3">
+    <line x1="0" y1="540" x2="1280" y2="540"/><line x1="0" y1="600" x2="1280" y2="600"/><line x1="0" y1="660" x2="1280" y2="660"/>
+    <line x1="160" y1="480" x2="160" y2="540"/><line x1="480" y1="480" x2="480" y2="540"/><line x1="800" y1="480" x2="800" y2="540"/><line x1="1120" y1="480" x2="1120" y2="540"/>
+    <line x1="320" y1="540" x2="320" y2="600"/><line x1="640" y1="540" x2="640" y2="600"/><line x1="960" y1="540" x2="960" y2="600"/>
+    <line x1="160" y1="600" x2="160" y2="660"/><line x1="480" y1="600" x2="480" y2="660"/><line x1="800" y1="600" x2="800" y2="660"/><line x1="1120" y1="600" x2="1120" y2="660"/>
+  </g>
+  <rect y="468" width="1280" height="14" fill="#f7f0dd"/>
+  <!-- backsplash -->
+  <rect x="340" y="252" width="610" height="118" fill="#cfe0dc"/>
+  <g stroke="#bfd4cf" stroke-width="2">
+    <line x1="340" y1="292" x2="950" y2="292"/><line x1="340" y1="332" x2="950" y2="332"/>
+    <line x1="420" y1="252" x2="420" y2="370"/><line x1="500" y1="252" x2="500" y2="370"/><line x1="580" y1="252" x2="580" y2="370"/><line x1="660" y1="252" x2="660" y2="370"/><line x1="740" y1="252" x2="740" y2="370"/><line x1="820" y1="252" x2="820" y2="370"/><line x1="900" y1="252" x2="900" y2="370"/>
+  </g>
+  <!-- upper cabinets -->
+  <g>
+    <rect x="350" y="130" width="210" height="120" rx="10" fill="#f7f0dd"/>
+    <line x1="455" y1="138" x2="455" y2="242" stroke="#e0d4b4" stroke-width="4"/>
+    <rect x="432" y="176" width="10" height="28" rx="5" fill="#2a9d8f"/><rect x="468" y="176" width="10" height="28" rx="5" fill="#2a9d8f"/>
+    <rect x="730" y="130" width="210" height="120" rx="10" fill="#f7f0dd"/>
+    <line x1="835" y1="138" x2="835" y2="242" stroke="#e0d4b4" stroke-width="4"/>
+    <rect x="812" y="176" width="10" height="28" rx="5" fill="#2a9d8f"/><rect x="848" y="176" width="10" height="28" rx="5" fill="#2a9d8f"/>
+  </g>
+  <!-- range hood (oven sits below) -->
+  <rect x="612" y="140" width="56" height="40" fill="#9aa5a8"/>
+  <path d="M570 230 L710 230 L688 180 L592 180 Z" fill="#aeb8bc"/>
+  <rect x="570" y="226" width="140" height="12" rx="6" fill="#8a9498"/>
+  <!-- left counter (kettle appears on top) -->
+  <rect x="336" y="370" width="188" height="20" rx="8" fill="#f7f0dd"/>
+  <rect x="344" y="390" width="172" height="112" rx="8" fill="#2a9d8f"/>
+  <line x1="430" y1="398" x2="430" y2="494" stroke="#1f7a70" stroke-width="4"/>
+  <rect x="408" y="424" width="9" height="26" rx="4" fill="#f7f0dd"/><rect x="443" y="424" width="9" height="26" rx="4" fill="#f7f0dd"/>
+  <!-- fruit bowl -->
+  <path d="M366 352 L424 352 L414 372 L376 372 Z" fill="#e76f51"/>
+  <circle cx="382" cy="346" r="9" fill="#ffd166"/><circle cx="398" cy="342" r="9" fill="#2a9d8f"/><circle cx="412" cy="346" r="9" fill="#e76f51"/>
+  <!-- right counter (dishwasher below) -->
+  <rect x="716" y="370" width="238" height="20" rx="8" fill="#f7f0dd"/>
+  <!-- window over breakfast table -->
+  <rect x="1052" y="142" width="164" height="146" rx="12" fill="#f7f0dd"/>
+  <rect x="1064" y="154" width="140" height="122" rx="7" fill="#bfe3ea"/>
+  <circle cx="1100" cy="188" r="18" fill="#ffd166"/>
+  <ellipse cx="1160" cy="210" rx="26" ry="10" fill="#ffffff" opacity="0.9"/>
+  <rect x="1129" y="154" width="7" height="122" fill="#f7f0dd"/>
+  <!-- breakfast table + stools -->
+  <ellipse cx="1135" cy="600" rx="105" ry="13" fill="#000000" opacity="0.10"/>
+  <rect x="1122" y="488" width="24" height="106" rx="6" fill="#a67950"/>
+  <ellipse cx="1134" cy="484" rx="100" ry="20" fill="#b98a5e"/>
+  <ellipse cx="1134" cy="478" rx="100" ry="20" fill="#c89a6c"/>
+  <rect x="1022" y="530" width="44" height="14" rx="7" fill="#e76f51"/>
+  <rect x="1030" y="544" width="10" height="52" rx="4" fill="#8a6f52"/><rect x="1048" y="544" width="10" height="52" rx="4" fill="#8a6f52"/>
+  <rect x="1204" y="530" width="44" height="14" rx="7" fill="#e76f51"/>
+  <rect x="1212" y="544" width="10" height="52" rx="4" fill="#8a6f52"/><rect x="1230" y="544" width="10" height="52" rx="4" fill="#8a6f52"/>
+</svg>

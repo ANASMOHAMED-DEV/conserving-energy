@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- Living room: interactive objects (lights, TV, lamp, AC, charger, console, router) are drawn by the game -->
+  <rect width="1280" height="500" fill="#ece2c8"/>
+  <rect y="86" width="1280" height="6" fill="#e0d4b4"/>
+  <rect y="500" width="1280" height="220" fill="#c8a87c"/>
+  <g stroke="#b99b72" stroke-width="3">
+    <line x1="0" y1="560" x2="1280" y2="560"/><line x1="0" y1="622" x2="1280" y2="622"/><line x1="0" y1="684" x2="1280" y2="684"/>
+    <line x1="180" y1="500" x2="180" y2="560"/><line x1="620" y1="500" x2="620" y2="560"/><line x1="1060" y1="500" x2="1060" y2="560"/>
+    <line x1="380" y1="560" x2="380" y2="622"/><line x1="840" y1="560" x2="840" y2="622"/><line x1="240" y1="622" x2="240" y2="684"/><line x1="980" y1="622" x2="980" y2="684"/>
+  </g>
+  <rect y="488" width="1280" height="14" fill="#f7f0dd"/>
+  <!-- window -->
+  <rect x="82" y="122" width="226" height="216" rx="14" fill="#f7f0dd"/>
+  <rect x="96" y="136" width="198" height="188" rx="8" fill="#bfe3ea"/>
+  <circle cx="150" cy="182" r="24" fill="#ffd166"/>
+  <ellipse cx="230" cy="200" rx="34" ry="13" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="205" cy="246" rx="28" ry="11" fill="#ffffff" opacity="0.7"/>
+  <rect x="190" y="136" width="8" height="188" fill="#f7f0dd"/>
+  <rect x="96" y="226" width="198" height="8" fill="#f7f0dd"/>
+  <rect x="62" y="106" width="266" height="10" rx="5" fill="#b98a5e"/>
+  <rect x="66" y="116" width="34" height="238" rx="14" fill="#e76f51"/>
+  <rect x="290" y="116" width="34" height="238" rx="14" fill="#e76f51"/>
+  <!-- wall art -->
+  <rect x="380" y="168" width="96" height="96" rx="8" fill="#e76f51"/>
+  <rect x="390" y="178" width="76" height="76" rx="5" fill="#f7f0dd"/>
+  <path d="M392 244 L418 206 L436 230 L450 212 L464 244 Z" fill="#2a9d8f"/>
+  <circle cx="446" cy="196" r="8" fill="#ffd166"/>
+  <!-- rug -->
+  <ellipse cx="640" cy="640" rx="310" ry="52" fill="#2a9d8f" opacity="0.28"/>
+  <ellipse cx="640" cy="640" rx="240" ry="38" fill="#2a9d8f" opacity="0.22"/>
+  <!-- sofa -->
+  <ellipse cx="640" cy="606" rx="180" ry="18" fill="#000000" opacity="0.10"/>
+  <rect x="500" y="400" width="280" height="110" rx="24" fill="#e76f51"/>
+  <rect x="512" y="432" width="124" height="60" rx="16" fill="#f4a58a"/>
+  <rect x="644" y="432" width="124" height="60" rx="16" fill="#f4a58a"/>
+  <rect x="490" y="480" width="300" height="112" rx="22" fill="#ef8a68"/>
+  <rect x="480" y="440" width="42" height="152" rx="18" fill="#d5573b"/>
+  <rect x="758" y="440" width="42" height="152" rx="18" fill="#d5573b"/>
+  <rect x="506" y="592" width="16" height="20" rx="5" fill="#8a6f52"/>
+  <rect x="758" y="592" width="16" height="20" rx="5" fill="#8a6f52"/>
+  <!-- side table (charger appears here) -->
+  <ellipse cx="860" cy="584" rx="52" ry="10" fill="#000000" opacity="0.10"/>
+  <rect x="818" y="470" width="84" height="16" rx="8" fill="#b98a5e"/>
+  <rect x="852" y="486" width="14" height="94" rx="5" fill="#a67950"/>
+  <rect x="830" y="576" width="58" height="10" rx="5" fill="#a67950"/>
+  <!-- media cabinet (TV + console appear here) -->
+  <ellipse cx="1030" cy="594" rx="110" ry="12" fill="#000000" opacity="0.10"/>
+  <rect x="930" y="500" width="200" height="88" rx="12" fill="#b98a5e"/>
+  <rect x="944" y="514" width="82" height="60" rx="8" fill="#a67950"/>
+  <rect x="1034" y="514" width="82" height="60" rx="8" fill="#a67950"/>
+  <circle cx="1018" cy="544" r="5" fill="#ffd166"/><circle cx="1042" cy="544" r="5" fill="#ffd166"/>
+  <rect x="944" y="588" width="14" height="12" rx="4" fill="#8a6f52"/><rect x="1102" y="588" width="14" height="12" rx="4" fill="#8a6f52"/>
+  <!-- router shelf -->
+  <rect x="1140" y="555" width="112" height="12" rx="6" fill="#b98a5e"/>
+  <path d="M1152 567 L1152 585 L1166 567 Z" fill="#a67950"/><path d="M1238 567 L1238 585 L1224 567 Z" fill="#a67950"/>
+  <!-- plant -->
+  <ellipse cx="64" cy="612" rx="34" ry="8" fill="#000000" opacity="0.10"/>
+  <path d="M40 560 L88 560 L80 610 L48 610 Z" fill="#e76f51"/>
+  <ellipse cx="52" cy="536" rx="12" ry="26" fill="#2a9d8f" transform="rotate(-18 52 536)"/>
+  <ellipse cx="76" cy="532" rx="12" ry="28" fill="#2a9d8f" transform="rotate(16 76 532)"/>
+  <ellipse cx="64" cy="522" rx="11" ry="30" fill="#1f7a70"/>
+</svg>

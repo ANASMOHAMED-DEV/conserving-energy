@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Art renderer (dev tool)</title></head>
+<body style="font-family:sans-serif;background:#16323a;color:#fdf6e3;padding:24px">
+<h1>Watt Watchers art renderer</h1>
+<p>Rasterizes assets/backgrounds/*.svg to JPEG via canvas and saves through the dev server on :8081.</p>
+<button id="go" style="font-size:20px;padding:12px 24px">Render all</button>
+<pre id="log"></pre>
+<script>
+const names = ['living-room', 'kitchen', 'bedroom', 'bathroom', 'laundry', 'house-map', 'title'];
+const log = (s) => { document.getElementById('log').textContent += s + '\n'; };
+
+async function renderOne(name) {
+  const svgText = await (await fetch('../assets/backgrounds/' + name + '.svg')).text();
+  const blob = new Blob([svgText], { type: 'image/svg+xml;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const img = new Image();
+  await new Promise((res, rej) => { img.onload = res; img.onerror = rej; img.src = url; });
+  const canvas = document.createElement('canvas');
+  canvas.width = 1280; canvas.height = 720;
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(img, 0, 0, 1280, 720);
+  URL.revokeObjectURL(url);
+  const dataUrl = canvas.toDataURL('image/jpeg', 0.88);
+  const resp = await fetch('http://localhost:8081/save?name=' + name, { method: 'POST', body: dataUrl });
+  const info = await resp.json();
+  return info;
+}
+
+window.__renderAll = async () => {
+  const results = [];
+  for (const n of names) {
+    try { const r = await renderOne(n); results.push(r); log(JSON.stringify(r)); }
+    catch (e) { results.push({ name: n, error: String(e) }); log(n + ' ERROR ' + e); }
+  }
+  window.__renderResults = results;
+  return results;
+};
+document.getElementById('go').onclick = () => window.__renderAll();
+log('ready');
+</script>
+</body>
+</html>

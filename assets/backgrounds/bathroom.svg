@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- Bathroom: shower, fan, radiator, straightener, lights drawn by the game -->
+  <rect width="1280" height="500" fill="#cfe6ea"/>
+  <g stroke="#bcd8de" stroke-width="2">
+    <line x1="0" y1="70" x2="1280" y2="70"/><line x1="0" y1="140" x2="1280" y2="140"/><line x1="0" y1="210" x2="1280" y2="210"/><line x1="0" y1="280" x2="1280" y2="280"/><line x1="0" y1="350" x2="1280" y2="350"/><line x1="0" y1="420" x2="1280" y2="420"/>
+    <line x1="90" y1="0" x2="90" y2="500"/><line x1="230" y1="0" x2="230" y2="500"/><line x1="370" y1="0" x2="370" y2="500"/><line x1="510" y1="0" x2="510" y2="500"/><line x1="650" y1="0" x2="650" y2="500"/><line x1="790" y1="0" x2="790" y2="500"/><line x1="930" y1="0" x2="930" y2="500"/><line x1="1070" y1="0" x2="1070" y2="500"/><line x1="1210" y1="0" x2="1210" y2="500"/>
+  </g>
+  <rect y="500" width="1280" height="220" fill="#8fb6bd"/>
+  <g stroke="#7da5ad" stroke-width="3">
+    <line x1="0" y1="560" x2="1280" y2="560"/><line x1="0" y1="622" x2="1280" y2="622"/><line x1="0" y1="684" x2="1280" y2="684"/>
+    <line x1="200" y1="500" x2="200" y2="720"/><line x1="440" y1="500" x2="440" y2="720"/><line x1="680" y1="500" x2="680" y2="720"/><line x1="920" y1="500" x2="920" y2="720"/><line x1="1160" y1="500" x2="1160" y2="720"/>
+  </g>
+  <rect y="490" width="1280" height="12" fill="#f7f0dd"/>
+  <!-- mirror -->
+  <rect x="622" y="182" width="176" height="186" rx="26" fill="#f7f0dd"/>
+  <rect x="634" y="194" width="152" height="162" rx="20" fill="#bfe3ea"/>
+  <path d="M654 344 L724 208 L748 208 L678 344 Z" fill="#ffffff" opacity="0.45"/>
+  <!-- vanity (straightener appears on counter) -->
+  <ellipse cx="710" cy="588" rx="120" ry="12" fill="#000000" opacity="0.10"/>
+  <rect x="600" y="435" width="220" height="145" rx="12" fill="#2a9d8f"/>
+  <line x1="710" y1="444" x2="710" y2="572" stroke="#1f7a70" stroke-width="4"/>
+  <rect x="684" y="480" width="9" height="26" rx="4" fill="#f7f0dd"/><rect x="727" y="480" width="9" height="26" rx="4" fill="#f7f0dd"/>
+  <rect x="590" y="420" width="240" height="18" rx="8" fill="#f7f0dd"/>
+  <ellipse cx="660" cy="424" rx="46" ry="12" fill="#ffffff"/>
+  <ellipse cx="660" cy="421" rx="36" ry="8" fill="#d8eef2"/>
+  <path d="M656 408 L656 396 L672 396 L672 404" stroke="#9aa5a8" stroke-width="6" fill="none"/>
+  <!-- toilet -->
+  <ellipse cx="480" cy="592" rx="62" ry="10" fill="#000000" opacity="0.10"/>
+  <rect x="432" y="428" width="96" height="76" rx="12" fill="#f7f0dd"/>
+  <rect x="444" y="440" width="72" height="18" rx="6" fill="#e4dcc6"/>
+  <rect x="440" y="504" width="80" height="52" rx="16" fill="#ffffff"/>
+  <ellipse cx="480" cy="556" rx="46" ry="18" fill="#ffffff"/>
+  <ellipse cx="480" cy="552" rx="32" ry="11" fill="#d8eef2"/>
+  <rect x="452" y="560" width="56" height="30" rx="8" fill="#f7f0dd"/>
+  <!-- towel ring above radiator zone -->
+  <circle cx="1050" cy="318" r="20" fill="none" stroke="#9aa5a8" stroke-width="6"/>
+  <rect x="1030" y="318" width="40" height="58" rx="8" fill="#e76f51"/>
+  <line x1="1030" y1="348" x2="1070" y2="348" stroke="#d5573b" stroke-width="4"/>
+  <!-- bath mat -->
+  <ellipse cx="640" cy="652" rx="150" ry="30" fill="#ffd166" opacity="0.5"/>
+  <ellipse cx="640" cy="652" rx="110" ry="20" fill="#ffd166" opacity="0.45"/>
+  <!-- plant corner -->
+  <path d="M1206 560 L1254 560 L1246 610 L1214 610 Z" fill="#e76f51"/>
+  <ellipse cx="1218" cy="536" rx="10" ry="24" fill="#2a9d8f" transform="rotate(-16 1218 536)"/>
+  <ellipse cx="1242" cy="532" rx="10" ry="26" fill="#2a9d8f" transform="rotate(14 1242 532)"/>
+  <ellipse cx="1230" cy="522" rx="9" ry="28" fill="#1f7a70"/>
+</svg>
